@@ -55,3 +55,19 @@ Tailwind CSS — styling and responsive design
 JavaScript / TypeScript — application logic
 react-toastify — notifications
 Vercel / Netlify — deployment
+
+
+
+
+
+
+
+
+
+Key Features
+
+🏋️ Workout Library — Browse 12 exercises across categories with images, equipment, duration, calories, and ratings
+📋 Plan & Saved Tracking — Add lifts to Today's Plan or Save them for later, with live badge counters in the navbar
+🔔 Toast Notifications — Instant feedback for every action (add, save, mark as done, remove)
+💾 Persistent Storage — Plan and saved data survive page reloads via localStorage
+📱 Fully Responsive — Seamless experience across mobile, tablet, and desktop
