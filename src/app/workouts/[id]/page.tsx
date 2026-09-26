@@ -2,7 +2,7 @@ import { IExercise } from "@/types/workout";
 import Image from "next/image";
 import React from "react";
 import { notFound } from "next/navigation";
-import workoutsData from "@/data/workouts.json";
+// import workoutsData from "@/data/workouts.json";
 import AddButton from "@/app/components/workoutDetails/AddButton";
 import SavedButton from "@/app/components/workoutDetails/SavedButton";
 
@@ -14,7 +14,14 @@ interface IExerciseCardProps {
 
 const WorkoutDetailsPage = async ({ params }: IExerciseCardProps) => {
   const { id } = await params;
+const getWorkouts = async () => {
+  const response = await fetch("https://api.abcz.workers.dev/api/fitlog");
+  const data = await response.json();
+  return data;
+};
 
+  const workoutsData = await getWorkouts()
+  console.log(workoutsData)
   // JSON data filter with type casting
   const workout = (workoutsData as IExercise[]).find(
     (item) => String(item.id) === String(id),
