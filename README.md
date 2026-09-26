@@ -42,3 +42,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 Project name — FitLog — Workout Library
 
 Description — FitLog is a dark, no-nonsense gym companion built for tracking workouts with intent. Browse a library of 12 exercises, add lifts to your daily plan or save them for later, and watch your minutes and calories add up in real time. Designed to be fast, responsive, and distraction-free across mobile, tablet, and desktop.
+
+
+
+
+
+Technologies Used
+
+Next.js (App Router) — routing, page structure, and rendering
+React — building UI components
+Tailwind CSS — styling and responsive design
+JavaScript / TypeScript — application logic
+react-toastify — notifications
+Vercel / Netlify — deployment
